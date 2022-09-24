@@ -1,0 +1,412 @@
+/* ----------------------------------
+
+@ BOOM
+@ Version: 1.0
+@ Author: BootExpress
+
+-------------------------------------
+
+Table of contents
+
+	01. Main Styles
+		-Preloader
+	02. Intro 
+		-Intro content
+		-Social
+		-Countdown
+		-Subscribe
+*/
+
+
+/* ===================================
+   Main Styles
+====================================== */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,700');
+body,
+html {
+	height: 100%;
+	font-family: "Raleway", sans-serif;
+}
+
+body {
+	background-image: url(../img/bg-pattern.png);
+	background-repeat: repeat;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+
+p {
+	font-family: "Raleway", sans-serif;
+	font-size: 17px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	margin-bottom: 20px;
+	color: #666;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(245, 245, 245, 0.96);
+	z-index: 1000;
+}
+
+.pre-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	bottom: auto;
+	right: auto;
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+	text-align: center;
+}
+
+.spinner {
+	margin: 0 auto;
+	width: 70px;
+	text-align: center;
+}
+
+.spinner>div {
+	width: 18px;
+	height: 18px;
+	background-color: #333;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0)
+	}
+	40% {
+		-webkit-transform: scale(1.0)
+	}
+}
+
+@keyframes sk-bouncedelay {
+	0%,
+	80%,
+	100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+	40% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}
+
+/* ===================================
+   Intro Styles
+====================================== */
+.intro-section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: table;
+	overflow: hidden;
+}
+
+.intro-content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 50px 0 80px;
+}
+
+.intro-content h2 {
+	margin-bottom: 20px;
+	letter-spacing: 0.5em
+}
+
+.logo img {
+	max-width: 100%
+}
+
+#particles {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+
+/*Social*/
+.social {
+	margin-bottom: 66px;
+	margin-top: 5px;
+}
+
+.social a {
+	/* display: inline-table; */
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border-radius: 20px;
+	margin: 0 5px;
+	/* box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); */
+	color: #686868;
+	font-size: 16px;
+	font-family:monospace;
+}
+
+.social a i {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.facebook {
+	background: #3b5998;
+}
+
+.twitter {
+	background: #00a0d1;
+}
+
+.youtube {
+	background: #e62117;
+}
+
+.instagram {
+	background: #2e5e86;
+}
+
+
+/* Countdown */
+.counter {
+	margin-bottom: 25px;
+}
+
+.counter .cd-item {
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 0 10px;
+	letter-spacing: 0.06em;
+}
+
+.counter .cd-item span {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 9px;
+	text-transform: uppercase;
+	margin-left: 2px;
+	letter-spacing: 0.03em;
+	color: #000;
+}
+
+
+/* Subscribe */
+.subcribe-btn {
+	padding: 15px 35px;
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	color: #333;
+	background-color: transparent;
+	text-transform: uppercase;
+	letter-spacing: 0.09em;
+	border-radius: 35px;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.subcribe-btn:after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 100%;
+	background: #333;
+	transition: inherit;
+	-webkit-transition: inherit;
+	border-radius: 25px;
+	z-index: -1;
+}
+
+.subcribe-btn:hover:after {
+	width: 100%;
+	left: 0;
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	transition: width .6s cubic-bezier(.85, 0, .15, 1);
+	-webkit-transition: width .6s cubic-bezier(.85, 0, .15, 1);
+}
+
+.subcribe-btn:hover {
+	color: #fff;
+}
+
+.mfp-ready .subscribe-area {
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	opacity: 1;
+}
+
+.mfp-removing .subscribe-area {
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	opacity: 0;
+}
+
+.subscribe-area {
+	width: 400px;
+	background: url(../img/dotted-bg.png);
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	background-color: #FFF;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	padding: 0 33px 20px;
+	opacity: 0;
+	border-radius: 5px;
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transform: scale(0.8);
+	transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+
+@media only screen and (max-width: 479px) {
+	.subscribe-area {
+		width: 100%;
+	}
+}
+
+.subscribe-area h2 {
+	color: #333;
+	padding: 40px 10px;
+	letter-spacing: normal;
+	font-weight: 700;
+	font-size: 23px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+.subscribe-area p {
+	padding: 0 10px;
+}
+
+.subscribe-area .mfp-close {
+	position: absolute;
+	background: #fff;
+	top: -15px;
+	right: -15px;
+	border-radius: 50%;
+	opacity: 1;
+	box-shadow: -5px 6px 20px rgba(93, 93, 93, 0.17);
+	transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+
+.subscribe-area .mfp-close:hover {
+	color: #fff;
+	background: #333;
+}
+
+@media only screen and (max-width: 479px) {
+	.subscribe-area .mfp-close {
+		top: 10px;
+		right: 10px;
+		box-shadow: 0px 0px 20px rgba(93, 93, 93, 0.2);
+	}
+}
+
+.subform {
+	padding: 20px;
+	position: relative;
+}
+
+.subform input {
+	width: 100%;
+	clear: both;
+	height: 50px;
+	padding: 10px 15px;
+	margin-bottom: 25px;
+	border: none;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.3);
+	background: #ffffff;
+	border-radius: 4px;
+}
+
+.subform input:focus {
+	outline: none;
+}
+
+.subform .subform-btn {
+	margin-bottom: 40px;
+	border: none;
+	padding: 15px 32px;
+	border-radius: 25px;
+	color: #fff;
+	letter-spacing: 0.06em;
+	font-size: 13px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	background: #333;
+	box-shadow: 0px 0 15px rgba(99, 99, 99, 0.42);
+	transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+}
+
+.subform .subform-btn:focus {
+	outline: none;
+}
+
+.subform label {
+	position: absolute;
+	bottom: 0;
+	font-weight: 400;
+	width: 100%;
+	left: 0;
+}
+
