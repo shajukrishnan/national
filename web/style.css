@@ -156,7 +156,7 @@ Version: 0.1
     text-align: center;
     list-style: none;
     display: inline-block;
-    margin-left: 75px;
+    margin-left: 10px;
 }
 .national_menu>ul>li {
    display: inline-block;
@@ -164,7 +164,7 @@ Version: 0.1
 }
 .national_menu > ul > li > a {
     display: block;
-    margin: 30px 10px;
+    margin: 30px 5px;
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -2043,10 +2043,10 @@ a.team-active i {
 .hero-text i {
     display: inline-block;
     background: #6aac44;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    font-size: 25px;
+    height: 32px;
+    width: 32px;
+    line-height: 35px;
+    font-size: 17px;
     color: #fff;
     text-align: center;
     border-radius: 100%;
@@ -2056,7 +2056,7 @@ a.team-active i {
 .hero-text span {
     display: inline-block;
     color: #3a3a3a;
-    font-size: 35px;
+    font-size: 24px;
     font-weight: 600;
     animation: 1s 2s fadeInUp both;
 }
