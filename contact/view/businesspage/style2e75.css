@@ -18,7 +18,7 @@
 .page_icon_center{margin: 0; padding: 0; display: flex;
  }
     .page_icon_center li{
-        list-style: none;padding: 5px;
+        list-style: none;
         
     }
 .page_icon_center li a{display:block;background: lightcyan; text-decoration: none; padding: 5px; border-radius: 40px; width: 42px; height: 42px; text-align: center; font-size: 18px; font-weight: bold; color: #141A22; margin: 0 7px 0 0; padding: 9px 0 0 0;}
