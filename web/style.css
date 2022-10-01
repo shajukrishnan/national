@@ -2017,7 +2017,7 @@ a.team-active i {
 .slider-content h4 {
     font-size: 18px;
     font-weight: 600;
-    color: #3a3a3a;
+    color: #c3c3c3;
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 1px;
@@ -2373,11 +2373,34 @@ a.slider-button2:hover:after {
 }
 .slider7.slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider6.jpg);
+    background: url(assets/images/slider/slider7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
+}
+.slider7 .slider-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #181818;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+    animation: 1s 2s fadeInUp both;
+}
+.slider7 .slider-content h1 {
+    font-size: 60px;
+    margin-top: 0;
+    color: #424242;
+    animation: 1s 2s fadeInUp both;
+}
+.slider7 .slider-content p {
+    font-size: 17px;
+    margin: 20px 0 20px;
+    color: #636363;
+    width: 55%;
+    animation: 1s 2s fadeInLeft both;
 }
 /*==========================================
     Video  Css  
