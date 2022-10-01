@@ -1,0 +1,32 @@
+.display_preview {
+    background: unset !important;
+}
+
+.loader_img {
+    /*width: 100px;
+    height: 100px;*/
+    max-width: 80%;
+    max-height: 60%;
+}
+
+.qr_page_loader {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.limit_exhaust_page {
+    height: 100vh;
+    background-image: url(http://cdn07.qrcodechimp.com/assets/images/bg_scan_limit.svg);
+}
+
+.account_limit_exhaust_form input, .account_limit_exhaust_form textarea{
+    border: 0;
+    border-bottom: 1px solid var(--light-color);
+    border-radius: 0;
+}
+.account_limit_exhaust_form input:focus, .account_limit_exhaust_form textarea:focus{
+    box-shadow: none;
+    outline: none;
+}
