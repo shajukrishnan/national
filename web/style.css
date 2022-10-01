@@ -725,7 +725,7 @@ button.close-search i {
 
 .slider1.index2-slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider5.jpg);
+    background: url(assets/images/slider/slider.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -734,7 +734,7 @@ button.close-search i {
 
 .slider2.index2-slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider7.png);
+    background: url(assets/images/slider/slider2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -1974,7 +1974,7 @@ a.team-active i {
 <!-- ============================================================== -->*/
 .slider1.slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider1.jpg);
+    background: url(assets/images/slider/slider.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -1982,7 +1982,7 @@ a.team-active i {
 }
 .slider2.slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider.jpg);
+    background: url(assets/images/slider/slider2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -2027,13 +2027,13 @@ a.team-active i {
 .slider-content h1 {
     font-size: 60px;
     margin-top: 0;
-    color: #181818;
+    color: #ffffff;
     animation: 1s 2s fadeInUp both;
 }
 .slider-content p {
     font-size: 17px;
     margin: 20px 0 20px;
-    color: #3a3a3a;
+    color: #d6d6d6;
     width: 55%;
     animation: 1s 2s fadeInLeft both;
 }
@@ -2055,7 +2055,7 @@ a.team-active i {
 }
 .hero-text span {
     display: inline-block;
-    color: #3a3a3a;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 600;
     animation: 1s 2s fadeInUp both;
@@ -2207,7 +2207,7 @@ a.slider-button2:hover:after {
 }
 .slider5.slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider4.jpg);
+    background: url(assets/images/slider/slider5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -2219,7 +2219,7 @@ a.slider-button2:hover:after {
 .slider4 .slider-content h1, .slider5 .slider-content h1 {
     font-size: 60px;
     margin-top: 0;
-    color: #202020;
+    color: #fff;
     animation: inherit;
 }
 .slider4 .slider-content h4, .slider5 .slider-content h4 {
@@ -2235,7 +2235,7 @@ a.slider-button2:hover:after {
 .slider4 .slider-content p, .slider5 .slider-content p {
     font-size: 17px;
     margin: 20px 0 20px;
-    color: #1C1C24;
+    color: #e5e5e5;
     width: 55%;
     animation: inherit;
 }
@@ -2363,10 +2363,6 @@ a.slider-button2:hover:after {
     height: 100%;
     width: 100%;
     animation: FocuS 1s linear 1s infinite;
-}
-.slider6 .slider-content{
-text-align: right;
-
 }
 .slider6 .slider-content p {
     font-size: 17px;
