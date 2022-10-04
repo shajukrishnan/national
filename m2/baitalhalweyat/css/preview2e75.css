@@ -13,7 +13,7 @@
 .qrp_prev_wrapper .card{border: solid 1px #ECEEF7;}
 .qrp_prev_wrapper .card-header{border-bottom:0px; font-size: 18px;  color: #141A22;}
 /*.qrp_prev_wrapper .card-header i{ color: #141A22;} */
-.card_list{margin: 5px 0px -10px 30px;padding: 0; }
+.card_list{margin: 5px 0px -10px 0;padding: 0; }
 .card_list li{list-style:none; margin: 0;}
 .card_list li:last-child{border-bottom: solid 0px #ECEEF7;}
 .card_list li .sm-t{font-size: 12px;}
