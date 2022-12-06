@@ -493,3 +493,22 @@ labels.forEach(function(label) {
 tabs.forEach(function(tab) {
   tab.addEventListener("click", toggleShow);
 });
+
+
+const modal22 = document.querySelector(".modal22");
+const trigger22 = document.querySelector(".trigger22");
+const closeButton22 = document.querySelector(".close-button22");
+
+function togglemodal22() {
+    modal22.classList.toggle("show-modal22");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal22) {
+        togglemodal22();
+    }
+}
+
+trigger22.addEventListener("click", togglemodal22);
+closeButton22.addEventListener("click", togglemodal22);
+window.addEventListener("click", windowOnClick);
