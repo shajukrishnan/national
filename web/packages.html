@@ -41,6 +41,7 @@
 	<!-- modernizr js -->	
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="https://kit.fontawesome.com/e504c9b136.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/aos.css" />
 	
 </head>
 <body>
@@ -91,10 +92,10 @@
 		<div class="row align-items-center">
 			<div class="col-lg-3">
 				<div class="logo">
-					<a class="logo_img" href="index-2.html" title="national">
+					<a class="logo_img" href="index.html" title="national">
 						<img src="assets/images/nat_logo.png" alt="" />
 					</a>
-					<a class="main_sticky" href="index-2.html" title="national">
+					<a class="main_sticky" href="index.html" title="national">
 						<img src="assets/images/nat_logo.png" alt="astute" />
 					</a>
 				</div>
@@ -245,7 +246,7 @@
 				<div class="portfolio_nav">
 					<div class="portfolio_menu">
 						<ul class="menu-filtering">
-							<li class="current_menu_item" data-filter="*">All Works</li>
+							<li class="current_menu_item" data-filter="*">All</li>
 							<li data-filter=".food" > Food Packaging</li>
 							<li data-filter=".box" > Boxes</li>
 							<li data-filter=".bag" > Bags</li>
@@ -292,11 +293,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12 grid-item food box ">
+			<div class="col-lg-4 col-md-6 col-sm-12 grid-item food">
 				<div class="single_portfolio">
 					<div class="single_portfolio_inner">
 						<div class="single_portfolio_thumb">
-							<img src="assets/images/products/4.jpg" alt="" />
+							<img src="assets/images/products/26.jpg" alt="" />
 							<div class="single_portfolio_content">
 								<h3><a href="portfolio-details.html">Burger Box</a></h3>
 							</div>
@@ -304,6 +305,7 @@
 					</div>
 				</div>
 			</div>
+		
 			<div class="col-lg-4 col-md-6 col-sm-12 grid-item food box bag">
 				<div class="single_portfolio">
 					<div class="single_portfolio_inner">
@@ -388,6 +390,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 grid-item food box ">
+				<div class="single_portfolio">
+					<div class="single_portfolio_inner">
+						<div class="single_portfolio_thumb">
+							<img src="assets/images/products/4.jpg" alt="" />
+							<div class="single_portfolio_content">
+								<h3><a href="portfolio-details.html">Fast food Box</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="col-lg-4 col-md-6 col-sm-12 grid-item box">
 				<div class="single_portfolio">
 					<div class="single_portfolio_inner">
@@ -424,6 +438,7 @@
 					</div>
 				</div>
 			</div>
+			
 	
 
 		</div>
@@ -473,7 +488,7 @@
 			<div class="col-lg-3 col-md-6 col-sm-12">
 				<div class="widget widgets-company-info">
 					<div class="national-logo">
-						<a class="logo_img" href="index-2.html" title="national">
+						<a class="logo_img" href="index.html" title="national">
 							<img src="assets/images/logo.png" alt="" />
 						</a>
 					</div>
@@ -653,6 +668,18 @@
 	<script src="assets/js/jquery.scrollUp.js"></script>
 	<!-- theme js -->	
 	<script src="assets/js/theme.js"></script>
+	<script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        easing: 'ease',
+        delay: 0,
+        once: true,
+        duration: 800,
+      
+      });
+      
+    </script>
 	<!--jave script -->
     <script>
         $(window).on('scroll', function () {

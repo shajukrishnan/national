@@ -41,6 +41,7 @@
 	<!-- modernizr js -->	
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 	<script src="https://kit.fontawesome.com/e504c9b136.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/aos.css" />
 	
 </head>
 <body>
@@ -91,10 +92,10 @@
 		<div class="row align-items-center">
 			<div class="col-lg-3">
 				<div class="logo">
-					<a class="logo_img" href="index-2.html" title="national">
+					<a class="logo_img" href="index.html" title="national">
 						<img src="assets/images/nat_logo.png" alt="" />
 					</a>
-					<a class="main_sticky" href="index-2.html" title="national">
+					<a class="main_sticky" href="index.html" title="national">
 						<img src="assets/images/nat_logo.png" alt="astute" />
 					</a>
 				</div>
@@ -244,7 +245,7 @@
 				<div class="portfolio_nav">
 					<div class="portfolio_menu">
 						<ul class="menu-filtering">
-							<li class="current_menu_item" data-filter="*">All Works</li>
+							<li class="current_menu_item" data-filter="*">All</li>
 							<li data-filter=".promo" > Promo</li>
 							<li data-filter=".menu" > Menu</li>
 							<li data-filter=".sta" > Stationaries</li>
@@ -434,7 +435,7 @@
 			<div class="col-lg-3 col-md-6 col-sm-12">
 				<div class="widget widgets-company-info">
 					<div class="national-logo">
-						<a class="logo_img" href="index-2.html" title="national">
+						<a class="logo_img" href="index.html" title="national">
 							<img src="assets/images/logo.png" alt="" />
 						</a>
 					</div>
@@ -614,6 +615,18 @@
 	<script src="assets/js/jquery.scrollUp.js"></script>
 	<!-- theme js -->	
 	<script src="assets/js/theme.js"></script>
+	<script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        easing: 'ease',
+        delay: 0,
+        once: true,
+        duration: 800,
+      
+      });
+      
+    </script>
 	<!--jave script -->
     <script>
         $(window).on('scroll', function () {

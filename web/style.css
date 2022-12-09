@@ -2636,6 +2636,14 @@ a.slider-button2:hover:after {
     background-attachment: scroll;
     /* background-position: center center; */
 }
+.slider10.slider-area {
+    height: 750px;
+    background: url(assets/images/slider/slider11.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
 
 /*==========================================
     Video  Css  
@@ -6324,3 +6332,69 @@ div#particles .slider1.index2-slider-area {
   transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
   z-index: 99;
 }
+
+
+
+.serv-cat-main-block .section-heading {
+    margin-bottom: 50px;
+  } 
+  .serv-cat-icon {
+    border: 2px solid #ececec;
+    width: 100%;
+    /* height: 170px; */
+    /* background-color: #d7ffd6; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-filter: brightness(0);
+    -ms-filter:brightness(0);
+    -o-filter:brightness(0);
+    -moz-filter:brightness(0);
+    filter:brightness(1); 
+  }
+  .serv-cat-block:hover .serv-cat-icon {  
+    border: 2px solid #6aab43;
+    -webkit-filter: brightness(100%);
+    -ms-filter:brightness(100%);
+    -o-filter:brightness(100%);
+    -moz-filter:brightness(100%);
+    filter:brightness(100%); 
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .serv-cat-block:hover .serv-cat-dtl p {  
+    color: #6aab43;
+    
+  }
+  .serv-cat-dtl a {  
+  text-decoration: none;
+  pointer-events: none;
+    
+  }
+  .serv-cat-dtl p {  
+    margin-top: 11px;
+    font-family: 'Helvetica', serif;
+    color: #666;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.05em;
+    
+  }
+  .serv-cat-icon a {
+    display: block;
+    margin: 0 auto;
+    pointer-events: none;
+  }
+  .serv-cat-icon a img { 
+    max-width: 100%;
+  }
+  .serv-cat-row {
+    margin-top: 11px;
+  }
+  
