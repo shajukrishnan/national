@@ -5698,7 +5698,7 @@ form#contact_form {
     width: 80%;
 }
 .national-logo {
-    margin-bottom: 23px;
+    margin-bottom: 2px;
     margin-top: 8px;
 }
 .company-info-desc p {
@@ -5760,7 +5760,7 @@ form#contact_form {
     font-size: 22px;
     margin-top: 15px;
     color: #f8f9fe;
-    margin-bottom: 38px;
+    margin-bottom: 18px;
     font-weight: 700;
 }
 .single-widget-item h4 {
@@ -5771,7 +5771,7 @@ form#contact_form {
     font-size: 22px;
     font-weight: 700;
     color: #f8f9fe;
-    margin-bottom: 34px;
+    margin-bottom: 18px;
     margin-top: 15px;
 }
 .footer-recent-post.style-two {
@@ -5816,7 +5816,7 @@ h4.widget-title {
     margin-top: 14px;
     font-weight: 700;
     color: #f8f9fe;
-    margin-bottom: 35px;
+    margin-bottom: 18px;
 }
 .footer-socail-icon {
     float: left;
