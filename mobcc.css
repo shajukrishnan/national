@@ -1,0 +1,85 @@
+.slider1.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/mob/slider.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+.slider2.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider2.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+    
+}
+
+.slider3.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider3.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+.slider4.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider4.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+.slider5.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider5.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+.slider6.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider6.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+    position: relative;
+    z-index: 1;
+}
+.slider7.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider7.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+.slider8.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider8.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+
+.slider9.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider9.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
+.slider10.slider-area {
+    height: 430px;
+    background: url(assets/images/slider/slider11.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center center; */
+}
