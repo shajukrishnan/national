@@ -6372,8 +6372,6 @@ div#particles .slider1.index2-slider-area {
   .products-cat-row {
     margin-top: 11px;
   }
-  
-
   .modal22 {
   position: fixed;
   left: 0;
@@ -6386,7 +6384,6 @@ div#particles .slider1.index2-slider-area {
   transform: scale(1.1);
   transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
-
 .modal22-content {
   position: absolute;
   top: 50%;
@@ -6397,7 +6394,6 @@ div#particles .slider1.index2-slider-area {
   width: 40rem;
   border-radius: 0.5rem;
 }
-
 .close-button22 {
   float: right;
   width: 1.5rem;
@@ -6407,11 +6403,9 @@ div#particles .slider1.index2-slider-area {
   border-radius: 0.25rem;
   background-color: lightgray;
 }
-
 .close-button22:hover {
   background-color: darkgray;
 }
-
 .show-modal22 {
   opacity: 1;
   visibility: visible;
