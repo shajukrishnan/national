@@ -201,9 +201,54 @@
 <!--==================================================-->
 <!-- Start national slider Area -->
 <!--==================================================-->
+
+
+
+
 <div style="align-items:center;" class="logomobile col-lg-12 col-md-12 col-sm-12">
 	<img src="assets/images/nat_logo.png" width="80%" height="auto">
 </div>
+
+
+
+<div class="slideshow-container mobileslideshow">
+	<div class="mySlides fademob">
+		<img src="assets/images/slider/mob/slider.jpg" style="width:100%">
+		<div class="mobctext">Gift Boxes</div>
+	</div>
+	<div class="mySlides fademob">
+		<img src="assets/images/slider/mob/slider2.jpg" style="width:100%">
+		<div class="mobctext">Pizza Boxes</div>
+	</div>
+	<div class="mySlides fademob">
+		<img src="assets/images/slider/mob/slider3.jpg" style="width:100%">
+		<div class="mobctext">Paper Bags</div>
+	</div>
+	<div class="mySlides fademob">
+		<img src="assets/images/slider/mob/slider4.jpg" style="width:100%">
+		<div class="mobctext">Cups & Food package</div>
+	</div>
+	<div class="mySlides fademob">
+		<img src="assets/images/slider/mob/slider5.jpg" style="width:100%">
+		<div class="mobctext">Customised Boxes</div>
+	</div>
+
+</div>
+<br>
+
+
+<div style="text-align:center" class="mobileslideshow1">
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+
+  </div>
+  
+
+
+
 
 <div class="slider_list owl-carousel" >
 	<div class="slider-area slider1 d-flex align-items-center">
@@ -1429,6 +1474,27 @@ $(window).load(function () {
     });
 });
 		</script>
+<script>
+			let slideIndex = 0;
+			showSlides();
+			
+			function showSlides() {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 3000); // Change image every 2 seconds
+			}
+			</script>
 	
 </body>
 </html>
