@@ -53,7 +53,16 @@ Version: 0.1
     .mobpack{
         margin-top: 112px;
     }
+
+   
+      
   }
+
+
+.logomobile {
+    display: none;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){ .logomobile { display:block;text-align: center;margin-top: 25px;}}
 .header-top-area {
     background: #6aac44;
     padding: 10px 0;
