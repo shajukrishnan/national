@@ -4839,7 +4839,7 @@ span.bottom-m {
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-name: MOVE-BG;
+/*     animation-name: MOVE-BG; */
 }
 .text-left1.em_bar_bg {
     height: 3px;
