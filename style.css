@@ -2152,12 +2152,12 @@ a.team-active i {
     display: inline-block;
     float: left;
     margin-right: 4px;
-    animation: 1s 2s fadeInLeft both;
+    /* animation: 1s 2s fadeInLeft both; */
 }
 .slider-button a {
     font-size: 17px;
     color: #fff;
-    background: #fff;
+    background: #6aac44;
     padding: 9px 21px 6px;
     -webkit-animation: 1s 2s fadeInUp both;
     animation: 1s 2s fadeInUp both;
@@ -2177,9 +2177,7 @@ a.team-active i {
     background: #6aac44;
     left: 4px;
     top: 4px;
-    height: 100%;
-    width: 100%;
-    transition: .5s;
+    
     z-index: -1;
 }
 .slider-button a:hover:after {
@@ -2188,7 +2186,7 @@ a.team-active i {
 }
 .slider-button1 a {
     font-size: 17px;
-    color: #6aac44;
+    color: #ffffff;
     background: #6aac44;
     padding: 9px 21px 6px;
     -webkit-animation: 1s 2s fadeInUp both;
@@ -2206,9 +2204,9 @@ a.team-active i {
 .slider-button1 a:after {
     position: absolute;
     content: "";
-    background: #fff;
-    left: 4px;
-    top: 4px;
+    background: #363636;
+    left: 0px;
+    top: 0px;
     height: 100%;
     width: 100%;
     transition: .5s;
@@ -2221,8 +2219,8 @@ a.team-active i {
 a.slider-button2 {
     font-size: 17px;
     color: #fff;
-    background: #fff;
-    padding: 19px 34px 13px;
+    background: #6aac44;
+    padding: 9px 21px 6px;
     -webkit-animation: 1s 2s fadeInUp both;
     animation: 1s 2s fadeInUp both;
     margin-right: 16px;
@@ -2241,9 +2239,7 @@ a.slider-button2:after {
     background: #6aac44;
     left: 4px;
     top: 4px;
-    height: 100%;
-    width: 100%;
-    transition: .5s;
+    
     z-index: -1;
 }
 a.slider-button2:hover:after {
@@ -2253,7 +2249,7 @@ a.slider-button2:hover:after {
 .slider3 .slider-button a {
     font-size: 17px;
     color: #fff;
-    background: #fff;
+    background: #6aac44;
     padding: 9px 21px 6px;
     -webkit-animation: 1s 2s fadeInUp both;
     animation: 1s 2s fadeInUp both;
@@ -2273,9 +2269,7 @@ a.slider-button2:hover:after {
     background: #6aac44;
     left: 4px;
     top: 4px;
-    height: 100%;
-    width: 100%;
-    transition: .5s;
+    
     z-index: -1;
 }
 .dark.slider3 .slider-button a:after {
@@ -2581,14 +2575,15 @@ a.slider-button2:hover:after {
 }
 .slider4 .slider-button {
     display: inline-block;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 .slider4 .slider-button a {
     font-size: 17px;
     color: #fff;
-    background: #1c1c24;
-    padding: 12px 42px;
-    animation: inherit;
+    background: #6aac44;
+    padding: 9px 21px 6px;
+    -webkit-animation: 1s 2s fadeInUp both;
+    animation: 1s 2s fadeInUp both;
     margin-right: 16px;
     transition: .5s;
     font-weight: 500;
@@ -2605,9 +2600,7 @@ a.slider-button2:hover:after {
     background: #6aac44;
     left: 4px;
     top: 4px;
-    height: 100%;
-    width: 100%;
-    transition: .5s;
+    
     z-index: -1;
 }
  
@@ -2618,9 +2611,10 @@ a.slider-button2:hover:after {
 .slider5 .slider-button a {
     font-size: 17px;
     color: #fff;
-    background: #fff;
-    padding: 18px 35px 13px;
-    animation: inherit;
+    background: #6aac44;
+    padding: 9px 21px 6px;
+    -webkit-animation: 1s 2s fadeInUp both;
+    animation: 1s 2s fadeInUp both;
     margin-right: 16px;
     transition: .5s;
     font-weight: 500;
@@ -2637,9 +2631,7 @@ a.slider-button2:hover:after {
     background: #6aac44;
     left: 4px;
     top: 4px;
-    height: 100%;
-    width: 100%;
-    transition: .5s;
+    
     z-index: -1;
 }
  .slider5 .slider-button a:hover:after {
@@ -2648,10 +2640,11 @@ a.slider-button2:hover:after {
 }
 .slider5 .slider-button1 a {
     font-size: 17px;
-    color: #6aac44;
+    color: #ffffff;
     background: #6aac44;
-    padding: 18px 35px 13px;
-    animation: inherit;
+    padding: 9px 21px 6px;
+    -webkit-animation: 1s 2s fadeInUp both;
+    animation: 1s 2s fadeInUp both;
     margin-right: 16px;
     transition: .5s;
     font-weight: 500;
@@ -2663,15 +2656,16 @@ a.slider-button2:hover:after {
     margin-top: 5px;
 }
 .slider5 .slider-button1 a:after {
-    position: absolute;
+	position: absolute;
     content: "";
-    background: #fff;
-    left: 4px;
-    top: 4px;
+    background: #363636;
+    left: 0px;
+    top: 0px;
     height: 100%;
     width: 100%;
     transition: .5s;
     z-index: -1;
+
 }
 .slider5 .slider-button1 a:hover:after {
     top: 0;
@@ -5703,9 +5697,9 @@ textarea:focus {
     padding: 97px 0 95px;
 }
 .row.subscribe-color {
-    border-style: solid;
+    /* border-style: solid;
     border-width: 10px;
-    color: #fff;
+    color: #fff; */
     background: url(assets/images/shape/subscribe2.jpg);
     overflow: hidden;
     padding: 14px 0 24px;
